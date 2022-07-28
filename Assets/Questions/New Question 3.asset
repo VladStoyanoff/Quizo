@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e4abce8f0a69e4a9c33fb08578a42f, type: 3}
+  m_Name: New Question 3
+  m_EditorClassIdentifier: 
+  question: "When the player object collides with a coin object, the coin object
+    should instantly disappear without impacting the player object\u2019s physics.
+    Which event function should you use to detect the collision between these two
+    objects in order to destroy the coin?\n\n "
+  answers:
+  - OnTriggerEnter
+  - ' OnCollisionExit'
+  - ' OnTriggerExit'
+  - ' OnCollisionEnter'
+  correctAnswerIndex: 0
